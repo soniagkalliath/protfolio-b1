@@ -1,0 +1,88 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+.menu{
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+}
+.links{
+    display: inline;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+
+/* pseudo class - syntax: selector:psuedo-class{property:value}  */
+.links:hover{
+    font-size: 30px;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px  gainsboro;
+}
+html{
+    scroll-behavior: smooth;
+}
+#welcome{
+    background: linear-gradient(aqua,aquamarine);
+    color: darkblue;
+}
+.profile{
+    margin-top: 50px;
+    border-radius: 50%;
+}
+h1{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#name{
+    font-size: 60px;
+    line-height: 1.2;
+    font-family: 'Dancing Script', cursive;
+}
+h2{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Anton', sans-serif;
+}
+#bio{
+    font-family: 'Noto Sans HK', sans-serif;
+    padding: 50px;
+}
+.line{
+    height: 6px;
+    background-color: darkblue;
+    width: 70px;
+    margin:  auto;
+}
+p{
+    font-size: 25px;
+}
+#writings a{
+    text-shadow: none;
+    text-decoration: underline;
+}
+#writings a:hover{
+    color: darkblue;
+}
+#contact{
+    background-color: firebrick;
+}
+#contact iframe{
+    width: 100%;
+    margin-top: 20px;
+}
+.contact_1 h3{
+    display: inline;
+}
+.contact_1 a{
+    text-shadow: none;
+    color: white;
+}
